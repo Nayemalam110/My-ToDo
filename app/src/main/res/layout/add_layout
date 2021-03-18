@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Sample text"
+        android:id="@+id/newtaskid"
+        android:background="@null"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebuttonid"
+        android:layout_below="@id/newtaskid"
+        android:layout_alignParentEnd="true"
+        android:text="Save"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"
+        />
+
+
+
+
+
+
+</RelativeLayout>
